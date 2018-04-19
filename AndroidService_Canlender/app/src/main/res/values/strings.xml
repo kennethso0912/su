@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">日历</string>
+    <string-array name="calendar_week">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wed</item>
+        <item>Thur</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <!-- 新的语音指令配置，暂时只在develop分支上生效-->
+    <string name="cruiser_call">今天的日期|今天星期几|今天几号|今天是星期几|今天是几号呀|今天是几号|今天礼拜几|今天的日期是多少|今天是礼拜几|告诉我今天的日期|我想知道今天的日期|告诉我今天星期几|我想知道今天星期几|告诉我今天几号|我想知道今天几号|告诉我今天是星期几|我想知道今天是星期几|告诉我今天是几号|我想知道今天是几号|告诉我今天礼拜几|我想知道今天礼拜几|告诉我今天的日期是多少|我想知道今天的日期是多少|告诉我今天是礼拜几|我想知道今天是礼拜几</string>
+
+
+    <string name="month_1">1月</string>
+    <string name="month_2">2月</string>
+    <string name="month_3">3月</string>
+    <string name="month_4">4月</string>
+    <string name="month_5">5月</string>
+    <string name="month_6">6月</string>
+    <string name="month_7">7月</string>
+    <string name="month_8">8月</string>
+    <string name="month_9">9月</string>
+    <string name="month_10">10月</string>
+    <string name="month_11">11月</string>
+    <string name="month_12">12月</string>
+
+    <string-array name="calendar_week_full">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- 老的语音指令配置-->
+    <string name="local_cmd">今天的日期|今天星期几|今天几号|今天是星期几|今天是几号呀|今天是几号|今天礼拜几|今天的日期是多少|今天是礼拜几|告诉我今天的日期|我想知道今天的日期|告诉我今天星期几|我想知道今天星期几|告诉我今天几号|我想知道今天几号|告诉我今天是星期几|我想知道今天是星期几|告诉我今天是几号|我想知道今天是几号|告诉我今天礼拜几|我想知道今天礼拜几|告诉我今天的日期是多少|我想知道今天的日期是多少|告诉我今天是礼拜几|我想知道今天是礼拜几</string>
+    <string name="local_cmd_en">what\'s date|what is date|what\'s date today|what is date today|what day is today|what day is it today|tell me the date|tell me the date today|what\'s the date|what is the date|what\'s the date today|what is the date today|what is today\'s date</string>
+
+    <string name="today">今天</string>
+    <string name="show">%1$s年%2$s月%3$s日</string>
+
+    <string name="answer">今天是%1$s年%2$s月%3$s日%4$s</string>
+</resources>

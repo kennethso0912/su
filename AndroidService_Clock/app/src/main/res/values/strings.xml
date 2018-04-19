@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">时钟</string>
+
+    <string name="month_1">1月</string>
+    <string name="month_2">2月</string>
+    <string name="month_3">3月</string>
+    <string name="month_4">4月</string>
+    <string name="month_5">5月</string>
+    <string name="month_6">6月</string>
+    <string name="month_7">7月</string>
+    <string name="month_8">8月</string>
+    <string name="month_9">9月</string>
+    <string name="month_10">10月</string>
+    <string name="month_11">11月</string>
+    <string name="month_12">12月</string>
+
+    <!-- 新的语音指令分发配置 暂时只在develop-->
+    <string name="cruiser_call">几点了|几点啦|现在几点了|现在几点啦|现在是几点|当前几点了|当前是几点|现在的时间|当前的时间|告诉我几点了|我想知道几点了|告诉我现在几点了|我想知道现在几点了|告诉我现在是几点|我想知道现在是几点|告诉我当前几点了|我想知道当前几点了|告诉我当前是几点|我想知道当前是几点|告诉我现在的时间|我想知道现在的时间|告诉我当前的时间|我想知道当前的时间</string>
+
+    <!--老的语音指令分发配置-->
+    <string name="cmd">几点了|几点啦|现在几点了|现在几点啦|现在是几点|当前几点了|当前是几点|现在的时间|当前的时间|告诉我几点了|我想知道几点了|告诉我现在几点了|我想知道现在几点了|告诉我现在是几点|我想知道现在是几点|告诉我当前几点了|我想知道当前几点了|告诉我当前是几点|我想知道当前是几点|告诉我现在的时间|我想知道现在的时间|告诉我当前的时间|我想知道当前的时间</string>
+    <string name="cmd_en">what \'s the time|what is the time|what is the time now|what \'s the time now|what time is it|what time is it now|tell me the time|Have you got the time|do you have the time</string>
+
+    <string name="answer_12">现在是%1$s %2$s点%3$s分</string>
+    <string name="answer_24">现在是%1$s点%2$s分</string>
+
+    <string name="show">%1$s年%2$s月%3$s日</string>
+
+</resources>

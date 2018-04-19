@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:monkey="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+    <!--android:background="@drawable/bg_whole_new"-->
+    <!-- 导航栏  android:background="@android:color/black"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_weight="1"
+        android:background="@drawable/nav_top_new"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="0dp"
+        >
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="41dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_menu_background"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_marginLeft="15dp"
+            />
+        <!--</com.andexert.library.RippleView>   android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp "-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="0dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+    <!--<com.monkey.miclockview.DrawView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+
+     <!--内容-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        >
+        <!--android:layout_height="match_parent"-->
+        <LinearLayout
+            android:layout_width="470dp"
+            android:layout_height="480dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            >
+        <com.ubtechinc.cruzr.clock.views.ClockView
+            android:id="@+id/cur_cv"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            monkey:darkColor="#80ffffff"
+            monkey:lightColor="#ffffff"
+            monkey:textSize="18sp"
+            monkey:bgSrc="@drawable/pan"
+            android:layout_marginTop="20dp"
+            monkey:refresh="1000"
+            />
+            <!--android:layout_weight="5"-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_curTime"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+            <!--android:layout_margin="-1px"-->
+            <com.ubtechinc.cruzr.clock.views.TimeView
+                android:id="@+id/tv_time_cur"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="-1px"
+                android:layout_marginTop="20dp"
+                monkey:bigTextSize="50sp"
+                monkey:smallTextSize="18sp"
+                monkey:bigTextColor="@android:color/white"
+                />
+            <TextView
+                android:id="@+id/tv_curZone"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textColor="#65b9ff"
+                />
+            <TextView
+                android:id="@+id/tv_curDay"
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textColor="#3078ff"
+                />
+        </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#183b79"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                />
+            <!--<TextView-->
+                <!--android:id="@+id/tv_test_24"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content" />-->
+            <GridView
+                android:id="@+id/gv_timezones"
+                android:layout_width="398dp"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:layout_gravity="center_vertical"
+                android:horizontalSpacing="-1px"
+                android:verticalSpacing="10dp"
+                android:layout_weight="8"
+                android:layout_marginTop="20dp"
+                android:listSelector="@android:color/transparent"
+                android:clickable="false"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="5dp"
+                >
+
+            </GridView>
+
+        <!--</LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>

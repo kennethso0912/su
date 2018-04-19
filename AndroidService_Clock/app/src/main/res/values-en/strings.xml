@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Clock</string>
+
+    <string name="month_1">January</string>
+    <string name="month_2">February</string>
+    <string name="month_3">March</string>
+    <string name="month_4">April</string>
+    <string name="month_5">May</string>
+    <string name="month_6">June</string>
+    <string name="month_7">July</string>
+    <string name="month_8">August</string>
+    <string name="month_9">September</string>
+    <string name="month_10">October</string>
+    <string name="month_11">November</string>
+    <string name="month_12">December</string>
+
+    <!-- now it is six(h)  forty(m) am -->
+    <string name="answer_12">now it is  %2$s  %3$s  %1$s</string>
+    <!-- now it is six(h)  forty(m) -->
+    <string name="answer_24">now it is  %1$s  %2$s</string>
+
+    <!-- month/date/year -->
+    <string name="show">%2$s/%3$s/%1$s</string>
+
+    <string name="cruiser_call">what\'s the time|what is the time|what is the time now|what\'s the time now|what time is it|what time is it now|tell me the time|have you got the time|do you have the time</string>
+</resources>

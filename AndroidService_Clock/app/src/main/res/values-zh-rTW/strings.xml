@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">時鐘</string>
+
+    <string name="month_1">1月</string>
+    <string name="month_2">2月</string>
+    <string name="month_3">3月</string>
+    <string name="month_4">4月</string>
+    <string name="month_5">5月</string>
+    <string name="month_6">6月</string>
+    <string name="month_7">7月</string>
+    <string name="month_8">8月</string>
+    <string name="month_9">9月</string>
+    <string name="month_10">10月</string>
+    <string name="month_11">11月</string>
+    <string name="month_12">12月</string>
+
+    <string name="answer_12">現在是%1$s %2$s點%3$s分</string>
+    <string name="answer_24">現在是%1$s點%2$s分</string>
+
+    <string name="show">%1$s年%2$s月%3$s日</string>
+
+
+    <string name="cruiser_call">幾點了|幾點啦|現在幾點了|現在幾點啦|現在是幾點|當前幾點了|當前是幾點|現在的時間|當前的時間|告訴我幾點了|我想知道幾點了|告訴我現在幾點了|我想知道現在幾點了|告訴我現在是幾點|我想知道現在是幾點|告訴我當前幾點了|我想知道當前幾點了|告訴我當前是幾點|我想知道當前是幾點|告訴我現在的時間|我想知道現在的時間|告訴我當前的時間|我想知道當前的時間</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="today">TDA</string>
+
+    <string name="month_1">January</string>
+    <string name="month_2">February</string>
+    <string name="month_3">March</string>
+    <string name="month_4">April</string>
+    <string name="month_5">May</string>
+    <string name="month_6">June</string>
+    <string name="month_7">July</string>
+    <string name="month_8">August</string>
+    <string name="month_9">September</string>
+    <string name="month_10">October</string>
+    <string name="month_11">November</string>
+    <string name="month_12">December</string>
+
+    <string-array name="calendar_week_full">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- month/date/year -->
+    <string name="show">%2$s/%3$s/%1$s</string>
+
+    <!-- Today is Tuesday ,July the fourth ,2017 -->
+    <string name="answer">Today is %4$s  ,  %2$s %3$s , %1$s</string>
+
+    <string name="cruiser_call">what\'s date|what is date|what\'s date today|what is date today|what day is today|what day is it today|tell me the date|tell me the date today|what\'s the date|what is the date|what\'s the date today|what is the date today|what is today\'s date</string>
+
+</resources>

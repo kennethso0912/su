@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="lightColor" format="color" />
+        <attr name="darkColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="bgSrc" format="integer"/>
+        <attr name="refresh" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="TimeView">
+        <attr name="bigTextSize" format="dimension"/>
+        <attr name="smallTextSize" format="dimension"/>
+        <attr name="bigTextColor" format="color"/>
+        <attr name="smallTextColor" format="color"/>
+    </declare-styleable>
+</resources>
